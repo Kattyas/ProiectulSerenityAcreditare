@@ -25,7 +25,6 @@ public class LoginSteps extends BaseSteps{
     public void userIsLoggedIn(String username) {
         myAccountPage.userIsLoggedIn(username);
     }
-
     @Step
     public void doLogin(String username, String password){
         navigateToMyAccount();

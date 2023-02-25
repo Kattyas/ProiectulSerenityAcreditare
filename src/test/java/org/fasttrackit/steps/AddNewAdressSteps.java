@@ -65,7 +65,6 @@ public class AddNewAdressSteps extends BaseSteps{
     public void clickSaveAddress(){
         billingAddressesPage.clickSaveAddressButton();
     }
-
     @Step
     public void verifyIsAddedSuccesfully() {
         Assert.assertEquals("Address changed successfully." , billingAddressesPage.getAddressText());

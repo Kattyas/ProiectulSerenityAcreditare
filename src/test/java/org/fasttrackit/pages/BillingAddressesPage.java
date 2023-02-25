@@ -7,31 +7,22 @@ public class BillingAddressesPage extends BasePage{
 
     @FindBy(id = "billing_first_name")
     private WebElementFacade firstNameField;
-
     @FindBy(css = ".form-row-last .input-text")
     private WebElementFacade lastNameField;
-
     @FindBy(css = "p #billing_address_1")
     private WebElementFacade streetAddressField;
-
     @FindBy(css = "p #billing_city")
     private WebElementFacade cityField;
-
     @FindBy(id = "billing_state")
     private WebElementFacade stateField;
-
     @FindBy(id = "billing_postcode")
     private WebElementFacade postcodeField;
-
     @FindBy(css = ".validate-phone input")
     private WebElementFacade phoneField;
-
     @FindBy(css = "#billing_email_field .input-text")
     private WebElementFacade emailField;
-
     @FindBy(css = "p .button")
     private WebElementFacade saveAddressButton;
-
     @FindBy(css = "div .woocommerce-message")
     private WebElementFacade addressMessage;
 

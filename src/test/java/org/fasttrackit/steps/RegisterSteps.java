@@ -9,7 +9,6 @@ public class RegisterSteps extends BaseSteps{
     public void navigateToMyAccount(){
         homePage.clickMyAccountField();
     }
-
     @Step
     public void typeUserEmail(String email) {
         accountPage.setEmailField(email);
@@ -18,7 +17,6 @@ public class RegisterSteps extends BaseSteps{
     public void typePassword(String password) {
         accountPage.setPasswordField(password);
     }
-
     @Step
     public void clickRegister() {
         accountPage.clickRegisterButton();

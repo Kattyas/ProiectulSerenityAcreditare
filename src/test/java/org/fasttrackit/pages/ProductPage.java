@@ -18,11 +18,9 @@ public class ProductPage extends BasePage{
     public void clickAddToCartButton(){
         clickOn(addToCartButton);
     }
-
     public void hasBeenProductAddedToCart() {
         addedToCartMessage.shouldContainText(" has been added to your cart.");
     }
-
     public void clickToCart(){
         clickOn(cartButton);
     }

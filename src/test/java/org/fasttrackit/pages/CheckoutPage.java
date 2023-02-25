@@ -21,7 +21,6 @@ public class CheckoutPage extends BasePage{
         clickOn(placeOrderButton);
         waitForAllTextToAppear();
     }
-
     public void hasBeenOrderReceived(){
         orderMessage.shouldContainText("Thank you. Your order has been received.");
 

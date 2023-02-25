@@ -13,7 +13,6 @@ public class CartPage extends BasePage{
     private WebElementFacade removeMessage;
     @FindBy(css = ".product-name a")
     private WebElementFacade checkProduct;
-
     @FindBy(css = "tr:nth-child(1) td.product-name a")
     private WebElementFacade productBenie;
     @FindBy(css = "tr:nth-child(2) td.product-name a")
